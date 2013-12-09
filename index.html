@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>GTD by Archy Sharp</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/libs.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</head>
+
+	<body>
+
+		<script type="text/x-template" id="extra-selector-template">
+			<div class="extra-selector">
+				<span data-type="task" title="Task"></span>
+				<span data-type="bug" title="Bug"></span>
+			</div>
+		</script>
+
+		<script type="text/x-template" id="column-template">
+			<div class="column">
+				<div class="title"><%= title %></div>
+				<div class="content"></div>
+				<div class="editor-wrap">
+					<div class="btn btn-new">New Task</div>
+					<div class="editor hidden">
+						<textarea class="border-box" placeholder="type smth or leave empty to cancel"></textarea>
+						<div class="extra-selector-wrap"></div>
+						<div class="btn btn-ok">Add</div>
+					</div>
+				</div>
+			</div>
+		</script>
+
+		<script type="text/x-template" id="item-template">
+			<div class="item <%= type %>">
+				<div class="id"><%= id %></div>
+				<div class="extra-selector-wrap"></div>
+				<div class="remove">&#x2716</div>
+				<pre class="name"><%= name %></pre>
+				<textarea class="border-box hidden" placeholder="leave empty to remove"></textarea>
+			</div>
+		</script>
+
+		<div class="main-wrap cf"></div>
+
+	</body>
+
+</html>

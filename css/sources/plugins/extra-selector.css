@@ -1,0 +1,21 @@
+
+/* Extra selector plugin */
+
+.extra-selector span {
+	display: inline-block;
+	margin-left: 1px;
+	background: #eee;
+	cursor: default;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000;
+}
+
+.extra-selector span.current,
+.extra-selector span:hover.current {
+	border-color: #fff;
+}
+
+.extra-selector span:hover {
+	border-color: #aaa;
+}

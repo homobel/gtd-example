@@ -1,0 +1,88 @@
+{
+	"to-do": [
+		{
+			"id": 12,
+			"name": "Back-end: registration & login",
+			"type": "task"
+		},
+		{
+			"id": 13,
+			"name": "Back-end: login",
+			"type": "task"
+		},
+		{
+			"id": 13,
+			"name": "Back-end: profile",
+			"type": "task"
+		},
+		{
+			"id": 14,
+			"name": "Javascript: automatic forms validation",
+			"type": "task"
+		},
+		{
+			"id": 15,
+			"name": "Javascript: parallax slider",
+			"type": "task"
+		}
+	],
+	"done": [
+		{
+			"id": 1,
+			"name": "Design: main page",
+			"type": "task"
+		},
+		{
+			"id": 2,
+			"name": "Design: registration page",
+			"type": "task"
+		},
+		{
+			"id": 3,
+			"name": "Design: login page",
+			"type": "task"
+		},
+		{
+			"id": 4,
+			"name": "Design: login page has no email field",
+			"type": "bug"
+		},
+		{
+			"id": 5,
+			"name": "Design: profile page",
+			"type": "task"
+		},
+		{
+			"id": 6,
+			"name": "Back-end: skeleton app",
+			"type": "task"
+		}
+	],
+	"in-progress": [
+		{
+			"id": 7,
+			"name": "Design: registration page has no captcha",
+			"type": "bug"
+		},
+		{
+			"id": 8,
+			"name": "Slicing: main page",
+			"type": "task"
+		},
+		{
+			"id": 9,
+			"name": "Slicing: login page",
+			"type": "task"
+		},
+		{
+			"id": 10,
+			"name": "Back-end: orm doesn't support MongoDB",
+			"type": "bug"
+		},
+		{
+			"id": 11,
+			"name": "Slicing: profile page",
+			"type": "task"
+		}
+	]
+}
