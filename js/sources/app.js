@@ -13,7 +13,7 @@
 
 	$(function() {
 
-		var	wrap = $('.main-wrap'),
+		var wrap = $('.main-wrap'),
 			types = ['To Do', 'In Progress', 'Done'],
 			options = {
 				taskIndexer: new Indexer(),
