@@ -1,4 +1,4 @@
-# GTD example
+# GTD (example)[http://homobel.org/examples/gtd]
 
 Dependencies:
 
